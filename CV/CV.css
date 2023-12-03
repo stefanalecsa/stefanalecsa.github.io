@@ -1,0 +1,152 @@
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+header {
+  font-family: "Rock Salt", cursive;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+table td{
+  border-bottom: 2px rgb(39, 173, 214) solid;
+  border-top: 2px rgb(39, 173, 214) solid;
+}
+
+.logo img {
+  max-width: 100%;
+  height: 80px;
+  margin-left: 10px;
+  float: left;
+}
+
+.contacto{
+    max-width: 40%;
+    height: 80px;
+    margin-right: 10px;
+    float: right;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 220px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+h2, h3 {
+  color: #3498db;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+h2, .con{
+ border-bottom:2px rgb(39, 173, 214) solid;
+}
+h3.diferente{
+  margin-top: 25px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.experiencia,
+.educacion {
+  margin-bottom: 30px;
+}
+
+.Trabajo,
+.educacion {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.Habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Habilidad {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #3498db;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+.footer{
+    margin-right: 50px;
+    display:inline-block ;
+}
+
+.Menú{
+    background-color: #333; 
+    border: 2px;
+    position: absolute;
+    float: left;
+    top: 50%;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.lista{
+    padding: 20px;
+    height: 100px;
+}
